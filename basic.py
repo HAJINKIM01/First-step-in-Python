@@ -51,3 +51,5 @@ New_BMI=str(BMI)
 
 print("Your Official BMI IS "+New_BMI)
 
+#To manage the decimal
+Print(round(8/3,2))
