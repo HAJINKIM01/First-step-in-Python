@@ -24,3 +24,14 @@ print("welcome to band name generator!")
 name_city= input("what's name of the city you grew up in?\n")
 name_pet = input("what is the name of your pet?\n")
 print(name_city +" "+ name_pet + " is your decent band name!")
+
+
+#day2 , making tip calculator,
+# Integer, if I want to do the mathmatical calculation, I need to use Integer.
+# if I use print("123"+"123"), it will accept number as letter not the number.
+# so, when I need to calculator some number wihtout decimal, I need to use Integer. 
+#float= it is some number with the decimal points.
+#Boolean, only two possible value, True or false. 
+
+print("you name has" + integer + "characters") it will end up with the error because it has string and error in the ().
+if I want to convert integer into string, I nedd to use "str" and if I want to check the type of data, I need to use print(type(x))
