@@ -35,3 +35,19 @@ print(name_city +" "+ name_pet + " is your decent band name!")
 
 print("you name has" + integer + "characters") it will end up with the error because it has string and error in the ().
 if I want to convert integer into string, I nedd to use "str" and if I want to check the type of data, I need to use print(type(x))
+
+#BMI calculator
+# 🚨 Don't change the code below 👇
+height = input("enter your height in m: ")
+weight = input("enter your weight in kg: ")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+new_height=int(height)
+new_weight=int(weight)
+
+BMI=((new_weight/100)/(new_height*new_height))
+New_BMI=str(BMI)
+
+print("Your Official BMI IS "+New_BMI)
+
