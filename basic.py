@@ -53,3 +53,16 @@ print("Your Official BMI IS "+New_BMI)
 
 #To manage the decimal
 Print(round(8/3,2))
+
+# life calculator
+# 🚨 Don't change the code below 👇
+age = input("What is your current age?")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+
+year_left =90-int(age)
+print(str(year_left)+"years has left to death")
+week_left=year_left*52
+day_left=week_left*7
+print(f"you have {year_left} years, {week_left} weeks,and {day_left} days.")
