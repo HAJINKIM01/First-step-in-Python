@@ -9,3 +9,12 @@ print("New lines can be created with a backslash and n.")
 input ("what is your name") # it will allow user to type the answer. 
 print ("hello " + input("what is your name?")+ " it is very nice to meet you")
 
+# if I want to count the name.
+print(len(input("what is your name?")))
+
+# I learned saving the variable from the input by using =. 
+#if I want to rewrite print(len(input("what is your name?"))).
+name = input ("what is your name"?)
+lenth = len(name)
+print(lenth)
+          
