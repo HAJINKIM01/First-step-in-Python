@@ -18,3 +18,9 @@ name = input ("what is your name"?)
 lenth = len(name)
 print(lenth)
           
+# first Project "BAND NAME GENERATOR!"
+
+print("welcome to band name generator!")
+name_city= input("what's name of the city you grew up in?\n")
+name_pet = input("what is the name of your pet?\n")
+print(name_city +" "+ name_pet + " is your decent band name!")
