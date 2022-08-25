@@ -77,3 +77,13 @@ Else:
               Print("you have to be taller to ride this rollarcoaster!")
  # Comparison Operators
    >,<,>=,<=, important(==equal to, and != not equal to)
+ # finding odd or even number by using if else function and %= it means dividing by x number.
+# 🚨 Don't change the code below 👇
+number = int(input("Which number do you want to check? "))
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+if number % 2==0:
+  print("even")
+else:
+  print("odd")
