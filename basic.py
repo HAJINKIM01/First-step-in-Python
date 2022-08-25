@@ -66,3 +66,13 @@ print(str(year_left)+"years has left to death")
 week_left=year_left*52
 day_left=week_left*7
 print(f"you have {year_left} years, {week_left} weeks,and {day_left} days.")
+
+#tip : when I want to make some diagram, use Draw.io! 
+
+Print("wellcome to the rollercoaster)
+height=input(int("what is your height?")
+if height>120:
+              Print("you can ride this rollarcoaster!")
+Else: 
+              Print("you have to be taller to ride this rollarcoaster!")
+      
