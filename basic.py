@@ -75,4 +75,5 @@ if height>120:
               Print("you can ride this rollarcoaster!")
 Else: 
               Print("you have to be taller to ride this rollarcoaster!")
-      
+ # Comparison Operators
+   >,<,>=,<=, important(==equal to, and != not equal to)
