@@ -87,3 +87,17 @@ if number % 2==0:
   print("even")
 else:
   print("odd")
+             
+# combination of if,elif, and else. 
+height = int(input("what is your height? "))
+ 
+if height >= 120:
+  age=int(input("how old are you?"))
+  if age< 10:
+    print("price is $10")
+  elif age<20:
+    print("price is $20")
+  else:
+    print("price is $100")
+else:
+  print("we can't enter")
