@@ -195,3 +195,33 @@ if extra_cheese=="Y":
 print(f"your final bill is ${bill}")
  
 #logical operator. and or not!
+
+             print("welcome to LoveGame!\n")
+Name_1=input("what is your name?")
+Name_2=input("what is his name?")
+combname=(Name_1+Name_2).lower()
+
+n1=combname.count("t")
+n2=combname.count("r")
+n3=combname.count("u")
+n4=combname.count("e")
+
+sumoftrue=str(n1+n2+n3+n4)
+
+n5=combname.count("l")
+n6=combname.count("o")
+n7=combname.count("v")
+n8=combname.count("e")
+
+sumoflove=str(n5+n6+n7+n8)
+total=int(sumoftrue+sumoflove)
+
+
+print(f"your love score is {total}")
+
+if total>10 and total>90:
+  print("Best")
+elif total<=90 or total>=10:
+  print("Good")
+else:
+  print("bad")
