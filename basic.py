@@ -169,3 +169,27 @@ elif 티켓종류=="빅4":
 else:
   print("영업방해말고 돌아가주십시오")
 
+#Pizza 주문계산기
+             # 🚨 Don't change the code below 👇
+print("Welcome to Python Pizza Deliveries!")
+size = input("What size pizza do you want? S, M, or L ")
+add_pepperoni = input("Do you want pepperoni? Y or N ")
+extra_cheese = input("Do you want extra cheese? Y or N ")
+# 🚨 Don't change the code above 👆
+bill = 0
+#Write your code below this line 👇
+if size=="S":
+   bill+=15
+elif size=="M":
+   bill+=17
+else:
+   bill+=20
+
+if add_pepperoni=="Y":
+  if size=="S":
+     bill+=2
+  else:
+     bill+=3
+if extra_cheese=="Y":
+  bill+=1
+print(f"your final bill is ${bill}")
