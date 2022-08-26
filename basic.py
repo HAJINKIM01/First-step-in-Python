@@ -231,3 +231,11 @@ else:
 # split function.
 names_string = input("Give me everybody's names, separated by a comma. ")
 names = names_string.split(", ")
+#who will be paying?
+listofpeople=[1,2,3,4,5,6]
+import random
+print(listofpeople[random.ramdint(0,5)]
+      both are same
+import random
+listofpeople=[1,2,3,4,5,6]
+print(random.choice(listofpeople))
