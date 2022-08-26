@@ -227,3 +227,7 @@ else:
   print("bad")
 #list. listofstates=["a","b"."C"]. print(listofstates[1]), listofstate.append("ar") (한개의 데이타추가), listofstate.expend("x","y")더 많은 리스트를 추가. 
              
+#random. 1st, Import random. random,randint(0,1). 
+# split function.
+names_string = input("Give me everybody's names, separated by a comma. ")
+names = names_string.split(", ")
