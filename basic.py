@@ -101,3 +101,19 @@ if height >= 120:
     print("price is $100")
 else:
   print("we can't enter")
+#leap year 찾는건데 나는 여기서 좀 해까려서, year%4!=0,year and %100==0 or %400!=0 print(not leap year) else: print("leap year).
+#근데 정답에서는 좀 달랐음.(이렇게 이거아니면 이거고 이거아니면 이거다** 이게중요!. 하면서 몰아가면서 찾는거 자주보기!!)
+year=int(input("what year?") )
+
+if year%4==0:
+  if year%100==0:
+    if year%400==0:
+      print("leap year")
+    else:
+      print("not leap year")
+  else:
+    print("leap year")  
+else:
+  print("not leap year")
+  
+             
