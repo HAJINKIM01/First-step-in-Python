@@ -193,3 +193,5 @@ if add_pepperoni=="Y":
 if extra_cheese=="Y":
   bill+=1
 print(f"your final bill is ${bill}")
+ 
+#logical operator. and or not!
