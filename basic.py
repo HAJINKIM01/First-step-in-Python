@@ -225,3 +225,5 @@ elif total<=90 or total>=10:
   print("Good")
 else:
   print("bad")
+#list. listofstates=["a","b"."C"]. print(listofstates[1]), listofstate.append("ar") (한개의 데이타추가), listofstate.expend("x","y")더 많은 리스트를 추가. 
+             
