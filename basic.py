@@ -143,3 +143,29 @@ if height >= 120:
 
 else:
   print("Sorry, you have to grow taller before you can ride.")
+  #연습 롯데월드
+print("롯데월드에 오신걸 환영합니다")
+티켓종류=str(input("어떤종류의 티켓을 구매하시겠습니까?자유이용권 or 빅4\n"))
+bill=0
+
+if 티켓종류=="자유이용권":
+  print("자유이용권 가격은 5만원입니다.")
+  bill=50000
+  주차권=input("주차권(10,000원) 구매하시겠습니까?네 OR 아니요\n")
+  if 주차권=="네":
+    bill+=10000
+    print(f"최종금액은 {bill}원 입니다") 
+  else:
+    print(f"최종가격은{bill}원 입니다")
+elif 티켓종류=="빅4":
+  print("빅4 가격은3만원입니다.")
+  bill=30000
+  주차권=input("주차권(10000원) 구매하시겠습니까?네 OR 아니요\n")
+  if 주차권=="네":
+    bill+=10000
+    print(f"최종금액은 {bill}원 입니다") 
+  else:
+    print(f"최종가격은 {bill}원 입니다")  
+else:
+  print("영업방해말고 돌아가주십시오")
+
