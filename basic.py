@@ -195,8 +195,8 @@ if extra_cheese=="Y":
 print(f"your final bill is ${bill}")
  
 #logical operator. and or not!
-
-             print("welcome to LoveGame!\n")
+#love game
+print("welcome to LoveGame!\n")
 Name_1=input("what is your name?")
 Name_2=input("what is his name?")
 combname=(Name_1+Name_2).lower()
