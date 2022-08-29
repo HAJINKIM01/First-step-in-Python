@@ -239,3 +239,23 @@ print(listofpeople[random.ramdint(0,5)]
 import random
 listofpeople=[1,2,3,4,5,6]
 print(random.choice(listofpeople))
+      
+ roop: for fruit in fruits:
+      print(fruits)
+      
+ #Practice for Roop, round!
+      
+#Write your code below this row 👇
+student_heights=[143,255,332,334,222,443]
+total_numberofstudent=0
+for student in student_heights:
+  total_numberofstudent+=1
+print(total_numberofstudent)
+
+total_height=0
+for student in student_heights:
+  total_height+=student
+
+print(total_height)
+
+print(round(total_height/total_numberofstudent,2))
