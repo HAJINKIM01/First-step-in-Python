@@ -244,6 +244,7 @@ print(random.choice(listofpeople))
       print(fruits)
       
  #Practice for Roop, round!
+#finding average number, and max
       
 #Write your code below this row 👇
 student_heights=[143,255,332,334,222,443]
@@ -259,3 +260,11 @@ for student in student_heights:
 print(total_height)
 
 print(round(total_height/total_numberofstudent,2))
+
+ 
+
+highest=0
+for student in student_heights:
+  if (student)>(highest):
+    highest=student
+print(highest)
