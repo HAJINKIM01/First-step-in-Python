@@ -268,3 +268,90 @@ for student in student_heights:
   if (student)>(highest):
     highest=student
 print(highest)
+      
+#sum of even number
+total_number=0
+
+for number in range(2,101,2):
+  total_number+=number
+  
+print(total_number)
+or
+total_number=0
+for number in range(1,101):
+      if number % 2==0:
+          total_number+=number
+print(total_number)
+      
+#가위바위보
+ import random
+
+me=int(input("what do you choose?"))
+
+computer=random.randint(0+1,me+1)
+print(f"computer choose {computer}")
+if me==2 and computer==0:
+  print("you won")
+elif me<computer:
+  print("you lost")
+elif computer==me:
+  print("draw")
+else:
+  print("you type invalid number, you lost")
+      
+  #defining Functions:
+  def my_function():
+          print("hello")
+          print("bye")
+      #it means that! do hits then do this finall do this.
+      in this defining, indentation is very important.
+  def my function():
+      if a>3:
+          print ("wow") 이런식으로 4 spaces! 
+      
+  #Reeborg's world.
+      def right():
+    turn_left()
+    turn_left()
+    turn_left()
+def tmove():
+    move()
+    move()
+def solution():
+    move()
+    turn_left()
+    move()
+    right()
+    move()
+    right()
+    move()
+    turn_left()
+
+for jump in range(0,6):
+    solution()
+# by using while, 
+number_huddle=6
+while number_huddle >0"
+      jump()
+      number_huddle-=-1
+#for 에서 차이점
+list_of_states=["a","b","c","d","e",
+"f"]
+
+for i in list_of_states:
+  print("its your",i)
+
+for number in range(0,6):
+  print(f"its your {list_of_states}")
+ 이차이를 알아야됨 !      
+      
+# while something_is_ture, 
+   #do this 
+    #do this
+     #then do this untile the comdition become false. 
+      
+
+   
+      
+       
+      
