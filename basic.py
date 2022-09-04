@@ -390,10 +390,73 @@ def prime_checker(number):
 n = int(input("Check this number: "))
 prime_checker(number=n)
 
-
-
-
-   
-      
+#dictionary
+      {key:value}
+ex: key:bug value: an error in a program that prevents the program from running as expected. 
+      programming_dictionary={"bug":"an error in a program that prevents the program from running as expected."}
+          if I want to make more dictionary {"1":"~~","2":"~~~", 콤마로 이어가면서 추가하면됨 그리고 마지막에 }
+print(programming_dictionary["key"])
+    #empty.
+      Prombramming_dictionary={}
+    #adding
+      programming_dictionary["add"]="valude"
+    #editing
+      programming_dictionary["bug"]="new value"
        
+   #loop through a dictionary
+      for key in program_dictionary:
+          print(key)
+          pritn(programing_dictionary[key])
+  
+      
+      
+    #grading program with for, dictionary
+      student_scores = {
+  "Harry": 81,
+  "Ron": 78,
+  "Hermione": 99, 
+  "Draco": 74,
+  "Neville": 62,
+}
+# 🚨 Don't change the code above 👆
+
+#TODO-1: Create an empty dictionary called student_grades.
+student_grade={}
+
+#TODO-2: Write your code below to add the grades to student_grades.👇
+for student in student_scores:
+  score= student_scores[student]
+  if score>90:
+    student_grade[student]="outstanding"#adding to dictionary
+  if score>80:
+    student_grade[student]="Exceeding expectation"#adding to dictionary
+  if score>70:
+     student_grade[student]="average"#adding to dictionary
+  else:
+     student_grade[student]="failed"#adding to dictionary
+    
+  
+    
+
+# 🚨 Don't change the code below 👇
+print(student_grade)
+
+
+#네스팅 nesting
+travel_log ={"Franch":["paris", "Lille", "Dijon"]} dictionary with listing
+      listing in listing
+      ["A","B",["C","D"]]
+#EX) 
+
+ travel_log={
+   "France":{"cities_visited":["paris","Lille","Dijon"], "total_visits":12},
+ }
+      
+  이거는 지금 
+ {
+   key: [list],
+   key2: {dict},
+ }
+이형식임 
+
       
