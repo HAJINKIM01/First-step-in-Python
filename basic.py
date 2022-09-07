@@ -458,5 +458,71 @@ travel_log ={"Franch":["paris", "Lille", "Dijon"]} dictionary with listing
    key2: {dict},
  }
 이형식임 
-
+ programming_dictionary={
+   "bug":"wfefwefewf.",
+   "function":"weflejwflk",
+   ,
+ } 이런 형식으로 정리. 
+  
+ adding new entry in dictionary
+ 
+  programming_dictionary["loop"]="it is very useful."
+ 
+ editing exiting dictionary
+    
+  Programming_dictionary["bug"] = " new material." 
       
+   #loop through a dictionary
+   
+      for key in programming_dictionary
+          print(key)
+          print(programming_dictionary[key]) 
+      #이러면 다나옴. #for loop 에 집중 ! 
+
+      # bidding_finished=false
+      
+      while not bidding_finished: 여기 뜻은 만약에 bidding_finished 가 false 이면 계속 반복해라. 
+      
+ #[bidding progect]
+      
+from replit import 
+      
+from art import logo
+print(logo)
+
+bids={}
+finished_bidding=False
+
+
+def finding_highest_bidder(bidding_record):
+  highest_bid = 0
+  highest_bidder = ""
+  for bidder in bidding_record:
+    bid_amount = bidding_record[bidder]
+    if bid_amount > highest_bid:
+      highest_bid=bid_amount
+      highest_bidder = bidder
+  print(f"The winner is {highest_bidder} with a bid of ${highest_bid}")
+    
+ 
+while not finished_bidding:
+  name=input("what is your name?")
+  price=int(input("what is your bidding price? $"))
+  bids[name]=(price)
+  should_continue=input("are there any other bidder? Type 'yes or no'.")
+  if should_continue=="no":
+    finished_bidding=True
+    finding_highest_bidder(bids)
+  elif should_continue=="yes":
+    clear()      
+      
+  #functions with outputs
+      
+   def format_name(f_name,L_name):
+      if f_name=="" or l_name=="":
+        return " you didn't provide valid inputs."
+      format_f_name=f_name.title()
+      format_l_last=l_name_title()
+      return f"Result:{formated_f_name} {formated_l_name}"
+      
+   print(format_name(input("what is your first name?"),input("what is your name?")))
